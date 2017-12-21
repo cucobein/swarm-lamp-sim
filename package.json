@@ -1,14 +1,14 @@
 {
   "name": "workflow",
   "version": "1.0.0",
-  "description": "My Web Workflow with NPM, SASS, Gulp and More",
+  "description": "A WebGL simulation of a flocking-algorithm particular implementation",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/juanpablogdl/workflow.git"
+    "url": "git+https://github.com/cucobein/swarm-lamp-sim.git"
   },
   "keywords": [
     "SASS",
@@ -16,12 +16,9 @@
     "Git",
     "Gulp"
   ],
-  "author": "Juan Pablo De la torre",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/juanpablogdl/workflow/issues"
-  },
-  "homepage": "https://github.com/juanpablogdl/workflow#readme",
+  "author": "Hugo Ramírez",
+  "license": "MIT",
+  "homepage": "https://github.com/cucobein/swarm-lamp-sim.git#readme",
   "devDependencies": {
     "bootstrap": "^3.3.7",
     "browser-sync": "^2.18.5",
