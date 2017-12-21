@@ -53,7 +53,7 @@ gulp.task('sass', function(){
       .pipe(autoprefixer())
       .pipe(sass({outputStyle: 'expanded'}).on('error', sass.logError))
       return merge(bootstrapCSS, sassFiles)
-          .pipe(concat('app.css'))
+          .pipe(concat('main.css'))
           .pipe(gulp.dest(APPPATH.css));
 });
 
